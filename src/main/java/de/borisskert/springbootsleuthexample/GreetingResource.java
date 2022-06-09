@@ -12,7 +12,7 @@ public class GreetingResource {
 
     @RequestMapping("/greeting")
     public String greeting() {
-        LOGGER.info("Handling home");
+        LOGGER.info("Greeting with 'Hello World'...");
         return "Hello World";
     }
 }
