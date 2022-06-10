@@ -5,6 +5,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Simple Hello-World-Resource to test the Sleuth log statements
+ */
 @RestController
 public class GreetingResource {
 

@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
+/**
+ * Simple Resource to retrieve the Trace-Id
+ */
 @RestController
 public class TraceResource {
     private static final Logger LOGGER = LoggerFactory.getLogger(TraceResource.class);

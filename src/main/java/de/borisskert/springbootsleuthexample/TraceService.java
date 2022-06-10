@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+/**
+ * Just a service to get the Trace-Id from the injected {@link Tracer}
+ */
 @Service
 public class TraceService {
 
